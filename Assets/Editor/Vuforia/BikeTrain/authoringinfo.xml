@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="17.0" toolVersion="8.6.7">
+<ModelTarget name="Bike_1" targetId="4a0fd3d8f29043b5be53482493a625cd" version="11.1" toolVersion="8.6.7" bbox="-0.018566 -0.005186 -0.034116 0.018566 0.065066 0.039704" previewImage="4a0fd3d8f29043b5be53482493a625cd_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="Bike_1s_assembly" assemblyId="3783cc3468b74c12a24a0b0344e9d4ce">
+<Part name="Bike_1" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="front" translation="-0.000181613 0.0243208 0.123074" rotation="AD: 0.9999999977008381 -0.0022244150483360374 0.03057967653741939 188.317" image="Bike_1_front.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="side" translation="-0.0029723 0.0245813 0.121148" rotation="AD: 0.9978418118751463 -0.09323878521994369 0.9984352480451935 187.537" image="Bike_1_side.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase mtDBid="fec4f0e43adf48f89ec25c72a4affd93" name="BikeTrain" toolVersion="13.0" version="13.0">
+    <RecognitionResult assemblyId="3783cc3468b74c12a24a0b0344e9d4ce" assemblyName="Bike_1" entryPoint="front" />
+    <RecognitionResult assemblyId="3783cc3468b74c12a24a0b0344e9d4ce" assemblyName="Bike_1" entryPoint="side" />
+</ModelTargetDatabase>
+
+</QCARInfo>
